@@ -1,0 +1,9 @@
+## Add these lines 
+
+DOCKER_OPTS="--dns 16.110.135.51 --dns 16.110.135.52"
+export http_proxy=http://proxy.houston.hpecorp.net:8080/
+export HTTP_PROXY=http://proxy.houston.hpecorp.net:8080/
+export https_proxy=http://proxy.houston.hpecorp.net:8080/
+export HTTPS_PROXY=http://proxy.houston.hpecorp.net:8080/
+export no_proxy=localhost,127.0.0.1,172.28.58.133,172.28.58.14,hpecorp.net,172.28.58.128
+export NO_PROXY=localhost,127.0.0.1,172.28.58.133,172.28.58.14,hpecorp.net,172.28.58.128
