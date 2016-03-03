@@ -30,7 +30,8 @@ This repository contains the instrucctions to run the voting-app using docker-co
   * Voting app [http://localhost:5000]
   * Results app [http://localhost:5001]
 
-**WELL DONE!!!**
+
+
 
 ## Help & Troubleshooting
 
