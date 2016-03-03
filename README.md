@@ -26,8 +26,11 @@ This repository contains the instrucctions to run the voting-app using docker-co
 *Note: If you have issues downloading the images go to help section below.*
  
  4 - Validate the application is up and running. Go to your browser...
+
   * Voting app [http://localhost:5000]
   * Results app [http://localhost:5001]
+
+**WELL DONE!!!**
 
 ## Help & Troubleshooting
 
