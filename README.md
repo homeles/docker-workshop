@@ -16,11 +16,14 @@ This repository contains the instrucctions to run the voting-app using docker-co
 ```
   git clone https://github.com/homeles/example-voting-app.git
 ```
+*Note: If you have issues downloading the repository go to help section below.*
+
  3 - Execute command docker compose and check your application. 
 ```bash
+  cd example-voting-app
   docker-compose up
 ```
-   Note: If you have issues downloading the images go to help section below.
+*Note: If you have issues downloading the images go to help section below.*
  
  4 - Validate the application is up and running. Go to your browser...
   * Voting app [http://localhost:5000]
@@ -51,7 +54,7 @@ If the image download process is failing then execute the following
   docker load < postgres.tar
   docker load < redis.tar
 ```
-* Now Execute again docker compose
+* Now Execute again docker compose inside the example-voting-app repository
 ```
   docker-compose up
 ```
