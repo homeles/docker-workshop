@@ -29,16 +29,16 @@ This repository contains the instrucctions to run the voting-app using docker-co
   * Voting app [http://localhost:5000]
   * Results app [http://localhost:5001]
 
-### Help & Troubleshooting
+## Help & Troubleshooting
 
-###### Git clone command is failing
+##### Git clone command is failing
 
 * Get the repository from the USB and extract the content.
 ```
   tar -xvf example-voting-app.tar
 ```
 
-###### Docker compose up is failing 
+##### Docker compose up is failing 
 
 If the image download process is failing then execute the following
 
