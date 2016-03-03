@@ -20,7 +20,7 @@ This repository contains the instrucctions to run the voting-app using docker-co
 
  3 - Execute command docker compose and check your application. 
 ```bash
-  cd example-voting-app
+  cd example-voting-app/
   docker-compose up
 ```
 *Note: If you have issues downloading the images go to help section below.*
@@ -52,6 +52,7 @@ If the image download process is failing then execute the following
 ```
 * Load the docker images from the USB in case you cannot download the connect directly from DockerHub
 ```
+  cd images-voting-app/
   docker load < examplevotingapp_result-app.tar
   docker load < examplevotingapp_voting-app.tar
   docker load < examplevotingapp_worker.tar
