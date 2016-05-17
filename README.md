@@ -43,7 +43,7 @@ This repository contains the instrucctions to run the voting-app using docker-co
   tar -xvf example-voting-app.tar
 ```
 
-#### Docker compose up is failing 
+#### Docker Import images 
 
 If the image download process is failing then execute the following
 
